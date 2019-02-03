@@ -3,7 +3,7 @@ const Readline = require("@serialport/parser-readline");
 const parser = new Readline();
 
 /**
- * 
+ * Initialize the serial port listener
  * @param {String} serialPort The serial port that should be listened on. For example: "COM4" or "/dev/ttyS0". To find out all your connected serial devices use the method `listAll()`
  * @param {Number} [baudRate=9600] The baud rate. It defaults to 9600 if left empty
  * @param {Function} callback Callback function which gets executed every time a line of data gets received. This function only has one attribute
