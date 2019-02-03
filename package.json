@@ -1,0 +1,26 @@
+{
+  "name": "ez-serial-read",
+  "version": "0.1.0",
+  "description": "Makes reading the serial data of an Arduino and other serial devices really easy",
+  "homepage": "https://github.com/Sv443/ez-serial-read#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sv443/ez-serial-read.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sv443 <sven.fehler@web.de> (https://sv443.net/)",
+  "license": "MIT",
+  "keywords": [
+    "serial",
+    "arduino",
+    "serialport",
+    "serial communication",
+    "serial comm"
+  ],
+  "dependencies": {
+    "serialport": "^7.1.4"
+  }
+}
