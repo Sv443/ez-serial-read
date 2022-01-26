@@ -21,6 +21,6 @@
     "serial comm"
   ],
   "dependencies": {
-    "serialport": "^7.1.4"
+    "serialport": "^9.0.0"
   }
 }
